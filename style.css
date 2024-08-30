@@ -1,0 +1,165 @@
+@font-face {
+	font-family: "Segoe UI";
+	src: url("https://immersiononk2.blob.core.windows.net/files/fonts/rocgrotesk-regular-webfont.woff")
+}
+
+@font-face {
+	font-family: "Segoe UI";
+	src: url("https://immersiononk2.blob.core.windows.net/files/fonts/rocgrotesk-regular-webfont.woff")
+}
+
+.theme-entry label.input-label {
+	display: block !important;
+	color: #000000;
+	font-size: 14px;
+	font-family: Segoe UI, sans-serif;
+	letter-spacing: .5px;
+	margin-bottom: 13px;
+	text-transform: uppercase;
+	font-weight: blod;
+}
+
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark,
+.theme-entry .input-control-watermark {
+	height: 52px;
+	-webkit-border-radius: 4px;
+	/*border: 1px solid #747474;*/
+	display: block;
+	box-sizing: border-box;
+	line-height: 1.2;
+	font-style: normal !important;
+	font-size: 14px;
+	font-weight: 400 !important;
+	font-family: "Arial" !important;
+	padding: 3px 17px 0 !important;
+}
+
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox,
+.theme-entry input[type=text].input-control,
+.theme-entry input[type=password].input-control {
+	height: 52px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #747474;
+	display: block;
+	box-sizing: border-box;
+	line-height: 1.2;
+	font-style: normal !important;
+	font-size: 14px;
+	font-weight: 400 !important;
+	font-family: "Arial" !important;
+	padding: 3px 17px 0 !important;
+}
+
+.theme-entry .input-control.select-box .input-control-m-c 
+{
+	height: 52px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #747474!important;
+	display: block;
+	box-sizing: border-box;
+	padding-top: 12px;
+}
+
+div .input-control-buttons{
+	border: 1px solid #747474!important;
+}
+ div .input-control-m-c{
+	border: 1px solid #747474!important;
+}
+
+.theme-entry .input-control.watermark a.input-control,
+.theme-entry .input-control.watermark a.input-control span {
+	font-style: normal !important;
+	font-size: 16px;
+	font-weight: 400 !important;
+	font-family: "Arial" !important;
+	padding: 3px 10px 0 !important;
+	color: black;
+}
+
+.theme-entry span {
+	font-family: "Segoe UI" !important;
+	font-size: 14px !important;
+	font-size: 16px;
+}
+
+.theme-entry .drop-menu .drop-menu-m {
+	border: solid 1px black;
+	font-weight: bold
+}
+
+.theme-entry div.input-control.datepicker,
+.theme-entry div.input-control.select-box {
+	border-radius: 3px;
+	box-shadow: 0 0 0 1px var(--On-Secondary-Dark) !important;
+	box-sizing: border-box;
+	font-size: 1.4rem;
+	width: calc(100% - 2px);
+	/*font-family: var(--Main-Font-Family);*/
+	background-color: var(--Primary-Light);
+}
+
+/*----------------------------------------------------------------------*/
+
+/*BUTTONS*/
+a[name="btnCreate"]{
+	background-color: #266106!important;
+}
+a[name="btnModify"]{
+	background-color: #0f5ed4!important;
+}
+a[name="btnDelete"]{
+	background-color: #dc3444!important;
+}
+a[name="btnClear"]{
+	background-color: #f9c107!important;
+}
+
+/*SCROLL VERTICAL*/
+.grid-body{
+	border: 1px solid red !important;
+	width: 100% !important;
+	overflow: auto !important;
+	white-space: nowrap !important;
+}
+
+/*SCROLL HORIZONTAL*/
+/*
+div.scroll-wrapper{
+	width: 100%;
+	max-height: 700px;
+	overflow: auto;
+}
+table, tr, td{
+	width: 100%;
+	border-collapse: collapse;
+}
+	*/
+
+
+/*HEADER TABLE*/
+table tbody tr td div .grid-column-header-text{
+	color: black!important;
+	font-weight: bold!important;
+	font-family: Segoe UI;
+}
+
+/*HEADER FORM*/
+div .panel-body{
+	color: blue!important;
+	font-family: Segoe UI;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+/*TOOLBAR*/
+.panel-header-wrapper{
+	background-color: #d90937!important;
+}
+.grid-header-wrapper{
+	background-color: #d90937!important;
+}
+.collapse-vertical{
+	color: black!important;
+	background-color: #bdbdbd!important;
+}
