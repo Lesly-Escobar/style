@@ -162,3 +162,23 @@ div .panel-body{
 	color: black!important;
 }
 
+/* CAMBIOS DE CELULAR */
+@media (min-width:400px) and (max-width: 768px) {
+	table tbody tr:nth-child(n+16){
+		display: none;
+	}
+	#dd138640-21cb-651c-0d6f-84d410320cc8{
+		background-color: lightblue !important;
+		justify-content: space-between !important;
+	}
+	#dd138640-21cb-651c-0d6f-84d410320cc8 a{
+		flex: 1 1 45% !important;
+	}
+	.grid-body-content{
+		border: 1px solid green !important;
+		width: 250% !important;
+		overflow: auto !important;
+		white-space: nowrap !important;
+	}
+}
+
