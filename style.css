@@ -109,7 +109,7 @@ a[name="btnModify"]{
 	background-color: #0f5ed4!important;
 }
 a[name="btnDelete"]{
-	background-color: #dc3444!important;
+	background-color: #ca2539!important;
 }
 a[name="btnClear"]{
 	background-color: #f9c107!important;
@@ -145,7 +145,7 @@ table tbody tr td div .grid-column-header-text{
 
 /*HEADER FORM*/
 div .panel-body{
-	color: blue!important;
+	color: black!important;
 	font-family: Segoe UI;
 	font-size: 14px;
 	font-weight: 500;
@@ -161,3 +161,4 @@ div .panel-body{
 .collapse-vertical{
 	color: black!important;
 }
+
